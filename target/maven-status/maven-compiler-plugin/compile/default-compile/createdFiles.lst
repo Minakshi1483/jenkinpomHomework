@@ -1,0 +1,9 @@
+org\example\BrowserSelector.class
+org\example\RegistrationPage.class
+org\example\BasePage.class
+org\example\Utils.class
+org\example\CurrencyChange.class
+org\example\CurrencyChangeResultPage.class
+org\example\HomePage.class
+org\example\RegistrationResultPage.class
+org\example\LoadProp.class

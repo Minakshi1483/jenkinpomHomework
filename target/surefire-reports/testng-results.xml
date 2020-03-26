@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="43451" started-at="2020-03-26T18:21:22 GMT" finished-at="2020-03-26T18:22:05 GMT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="43451" started-at="2020-03-26T18:21:22 GMT" finished-at="2020-03-26T18:22:05 GMT">
+      <class name="org.example.BaseTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.example.BaseTest@1ed4004b]" name="openBrowser" is-config="true" duration-ms="21719" started-at="2020-03-26T18:21:22 GMT" finished-at="2020-03-26T18:21:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.example.BaseTest@1ed4004b]" name="closeBrowser" is-config="true" duration-ms="995" started-at="2020-03-26T18:22:04 GMT" finished-at="2020-03-26T18:22:05 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.example.BaseTest -->
+      <class name="org.example.TestSuit">
+        <test-method status="PASS" signature="printPriceForEachProduct()[pri:0, instance:org.example.TestSuit@ff5b51f]" name="printPriceForEachProduct" duration-ms="295" started-at="2020-03-26T18:21:43 GMT" finished-at="2020-03-26T18:21:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printPriceForEachProduct -->
+        <test-method status="PASS" signature="userShouldAbleToRegisterSuccessfully()[pri:0, instance:org.example.TestSuit@ff5b51f]" name="userShouldAbleToRegisterSuccessfully" duration-ms="10082" started-at="2020-03-26T18:21:44 GMT" finished-at="2020-03-26T18:21:54 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldAbleToRegisterSuccessfully -->
+        <test-method status="PASS" signature="userShouldBeAbleToCurrencyChange()[pri:0, instance:org.example.TestSuit@ff5b51f]" name="userShouldBeAbleToCurrencyChange" duration-ms="10256" started-at="2020-03-26T18:21:54 GMT" finished-at="2020-03-26T18:22:04 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToCurrencyChange -->
+      </class> <!-- org.example.TestSuit -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
